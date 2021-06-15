@@ -1,0 +1,93 @@
+html {
+  height: 100vh;
+  overflow: hidden;
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+}
+html .app {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 100vh;
+  background-color: #000000;
+  display: grid;
+  place-items: center;
+}
+html .app > .skeleton___loader {
+  position: relative;
+  width: 400px;
+  height: calc(100vh - 60px);
+  overflow: scroll;
+  border-radius: 20px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+  background: rgba(255, 255, 255, 0.1);
+}
+html .app > .skeleton___loader::-webkit-scrollbar {
+  display: none;
+}
+html .app > .skeleton___loader > .loader___animation {
+  z-index: -1;
+  top: 0%;
+  width: 400px;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 100%);
+  filter: blur(20px);
+}
+html .app > .skeleton___loader > .loader___sidebar {
+  height: 40%;
+  width: 100px;
+  bottom: 40px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  right: 0;
+}
+html .app > .skeleton___loader > .loader___sidebar > div {
+  background: rgba(255, 255, 255, 0.4) !important;
+  width: 50px !important;
+  height: 50px !important;
+}
+html .app > .skeleton___loader > .loader___footer {
+  left: 0;
+  bottom: 50px;
+  height: 40%;
+  width: calc(100% - 100px);
+  padding-left: 25px;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+html .app > .skeleton___loader > .loader___footer > div {
+  height: 1em !important;
+  width: calc(100% - 20px) !important;
+  background: rgba(255, 255, 255, 0.4) !important;
+}
+html .app > .skeleton___loader > .loader___footer > div:nth-child(1) {
+  height: 2.5em !important;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+html .app > .skeleton___loader > .loader___footer > div:nth-child(2) {
+  height: 5em !important;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+html .app > .app___videos {
+  position: relative;
+  height: 100%;
+  max-width: 500px;
+  border-radius: 20px;
+  overflow: scroll;
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+html .app > .app___videos::-webkit-scrollbar {
+  display: none;
+}/*# sourceMappingURL=App.css.map */

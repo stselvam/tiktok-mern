@@ -1,0 +1,13 @@
+.video___element {
+  position: relative;
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 100%;
+  scroll-snap-align: start;
+}
+.video___element > .video___player {
+  -o-object-fit: fill;
+     object-fit: fill;
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=videos.css.map */

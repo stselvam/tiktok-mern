@@ -1,0 +1,56 @@
+.video___footer {
+  position: relative;
+  color: #FFFFFF;
+  bottom: 150px;
+  margin-left: 15px;
+  display: flex;
+}
+.video___footer > .text {
+  flex: 1;
+}
+.video___footer > .text > h3 {
+  padding-bottom: 10px;
+}
+.video___footer > .text > p {
+  padding-bottom: 10px;
+}
+.video___footer > .text > .ticker > .icon {
+  position: absolute;
+}
+.video___footer > .text > .ticker > .ticker {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-left: 30px;
+  width: 60%;
+}
+.video___footer > .text > .ticker > h1 {
+  padding-top: 7px;
+}
+.video___footer > img {
+  -webkit-animation: spinTheRecord infinite 2s linear;
+          animation: spinTheRecord infinite 2s linear;
+  height: 50px;
+  filter: invert(1);
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+
+@-webkit-keyframes spinTheRecord {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spinTheRecord {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}/*# sourceMappingURL=VideoFooter.css.map */
